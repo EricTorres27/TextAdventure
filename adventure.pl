@@ -327,7 +327,7 @@ scene(died_scene):-
 
 intro:-
   write('You wake up surroended by smoke and fire, the monastery is destoyed, all you can see is your fellow monks laying dead on the ground.'), nl,
-  write('The last thing you rememeber are person wereing a purple tunic with a icon on the center that represent only one thing. The cult of the witch'), nl,
+  write('The last thing you rememeber are person wearing a purple tunic with a icon on the center that represent only one thing. The cult of the witch'), nl,
   write('You need to advise the others about the danger that is coming to the kingdome, you need to go see the king who lives in the south and tell him what you saw'), nl,
   write('That is our only hope'), nl.
 
@@ -335,10 +335,11 @@ instructions:-
         write('To enter this world you will have to write the next list of actions (Prolog sintax).'), nl,
         write('+ This are the actions that you can choose:'), nl,
         write('+ You will move through the world with the next direction comands          ---- north.  south.  east.  west.  up.  down.'), nl,
-        write('+ You will be able to pick up objects that you find in teh world by typing ---- take.'), nl,
+        write('+ You will be able to pick up objects that you find in teh world by typing ---- take(item).'), nl,
         write('+ Defend yourself from enemies if you have the something to do it.         ---- attack.'), nl,
         write('+ Talk with npcs around the world to acces places or know information.     ---- talk.'), nl,
         write('+ To describe again were you are.                                          ---- look.'), nl,
+        write('+ Deploy information of the items.                                         ---- info(item).'), nl,
         write('+ Deploy this message again.                                               ---- instructions.'), nl,
         write('+ Exit the game and the program.                                           ---- exit.'), nl,
         nl.
